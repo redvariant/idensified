@@ -17,30 +17,30 @@ I wanted it to be an open-source project because I’m currently studying cybers
 
 Currently Ive got:
 
--Argon2id passphrase-based key derivation.
--AES-256-GCM encryption.
--A locally encrypted identity vault.
--Random salt and initialisation vectors.
--Strict validation of stored data.
--HTTPS-origin binding for stored identities.
--IndexedDB storage.
--A five-minute inactivity lock.
--Revision checks intended to prevent stale sessions overwriting newer vault data.
--DOM rendering using textContent to reduce injection risks.
+.Argon2id passphrase-based key derivation.
+.AES-256-GCM encryption.
+.A locally encrypted identity vault.
+.Random salt and initialisation vectors.
+.Strict validation of stored data.
+.HTTPS-origin binding for stored identities.
+.IndexedDB storage.
+.A five-minute inactivity lock.
+.Revision checks intended to prevent stale sessions overwriting newer vault data.
+.DOM rendering using textContent to reduce injection risks.
 note: I fought with AI to implement the best security possible but there will probably be some mistakes.
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Initial Browser extension prototype:-
 
-manifest.json - Browser extension configuration
-popup.html - Extension popup interface
-main.ts - Main application logic
-crypto.ts - Cryptographic operations
-vault.ts -  Encrypted vault functionality
-idb-store.ts - IndexedDB persistence
-validation.ts - Input and data validation
-errors.ts - Error handling
-types.ts - TypeScript definitions
-styles.css - Interface styling
-scripts/build.mjs - Build process
+.manifest.json - Browser extension configuration
+.popup.html - Extension popup interface
+.main.ts - Main application logic
+.crypto.ts - Cryptographic operations
+.vault.ts -  Encrypted vault functionality
+.idb-store.ts - IndexedDB persistence
+.validation.ts - Input and data validation
+.errors.ts - Error handling
+.types.ts - TypeScript definitions
+.styles.css - Interface styling
+.scripts/build.mjs - Build process
 
