@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "hash-wasm": "4.13.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "fake-indexeddb": "6.2.8",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --strict --target ES2022 --module NodeNext --moduleResolution NodeNext --lib ES2022,DOM --allowImportingTsExtensions errors.ts types.ts validation.ts idb-store.ts crypto.ts vault.ts main.ts",
+    "build": "node scripts/build.mjs"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
