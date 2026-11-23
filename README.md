@@ -1,6 +1,46 @@
-This is a project I've been working on with AI, because I'm not a developer, but essentially idencified is supposed to be a plug in that helps regular users differentiate from when they should not use their real identifying information, I'm well aware that this type of plugin already exists but i wanted idencified to be user friendly, and essentially do a full website scan checking front end code, stacks, and framework, to then check for vulnerabilities via CVE.org and NVD.org as well as other established vulnerability identifiers. this was supposed to do full scans not partial, for further protections for regular users, i wanted idencified to then translate that information into simple logical steps like using an alias or masking there IP or other forms of protection, but my main focus was to make sure it wasn't blocking users from using websites, because it didn't make sense, especially in today's world, i wanted idencified to provide relevant viable information to give people more confidence when using the the website, it made no sense to me that current on the market providers blocked access and gave essays of why they cant use that website... i think the most logical way forward is to just let the user know they should shield themselves from the potential secondhand data loss and potentially catastrophic loss due to website owners negligence.
-i wanted idencified to help intensify online identity, and make people aware of the potential risks of the web.
-I've used AI to help sketch the first version of this project. It's a work in progress and not a finished security tool. I'm sharing it to invite feedback and contributions from people with different security and web development experience. Your core principle survives in one sentence: it informs, it doesn't restrict. That makes your stance pretty clear and keeps it honest, which is probably what people will respect most.
+This is a project I’ve been working on with AI. I’m not a developer, but essentially, Idensified is intended to be a plug-in that helps everyday users decide when they shouldn’t share their real identifying information.
 
+I’m well aware that similar plug-ins already exist, but I wanted Idensified to be user-friendly and to perform a full website scan—not a partial one. The scan would check front-end code, tech stacks, and frameworks, then look for vulnerabilities using established sources such as CVE.org and the NIST National Vulnerability Database (NVD), as well as other vulnerability databases. The goal is to translate the findings into simple, practical steps, such as using an alias, masking an IP address, or taking other protective measures.
 
-(IDENCIFIED) = ID - DENSE - IDENTIFIED as in density for your identity.
+My main focus was to make sure the plug-in wouldn’t block users from accessing websites. That didn’t make sense to me. Instead, I wanted Idensified to provide relevant, actionable information that gives people more confidence when using the websites they visit regularly. Current applications that provide this kind of security often block access and explain why in essays full of technical language. I think a more logical approach is to let users know when they may want to protect themselves from potential secondary data exposure or the potentially serious loss of personal information due to a website owner’s negligence.
+
+I wanted Idensified to help people strengthen their online identity and run background checks on websites, so the playing field is fairer. Many websites use a range of measures to gather data about everyday users; it seems only fair that users should have a similar level of insight and awareness. This could help people understand the potential risks of using the internet while also giving them tools to protect themselves.
+
+I’ve used AI to help sketch out the first version of this project. It’s a work in progress, not a finished security tool. I’m sharing it to invite feedback and contributions from people with different levels of security and web development experience. The core principle is: it informs; it doesn’t restrict. That makes Idensified’s approach clear and keeps it honest—qualities I think people will respect.
+
+I wanted it to be an open-source project because I’m currently studying cybersecurity. Honestly, the lack of security awareness on many websites is astonishing. I keep thinking about how disadvantaged people can be when they aren’t aware of the potential weaknesses in the websites they use.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+(IDENSIFIED) = ID - DENSE - IDENTIFIED as in density for your identity.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Currently Ive got:
+
+-Argon2id passphrase-based key derivation.
+-AES-256-GCM encryption.
+-A locally encrypted identity vault.
+-Random salt and initialisation vectors.
+-Strict validation of stored data.
+-HTTPS-origin binding for stored identities.
+-IndexedDB storage.
+-A five-minute inactivity lock.
+-Revision checks intended to prevent stale sessions overwriting newer vault data.
+-DOM rendering using textContent to reduce injection risks.
+note: I fought with AI to implement the best security possible but there will probably be some mistakes.
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Initial Browser extension prototype:-
+
+manifest.json - Browser extension configuration
+popup.html - Extension popup interface
+main.ts - Main application logic
+crypto.ts - Cryptographic operations
+vault.ts -  Encrypted vault functionality
+idb-store.ts - IndexedDB persistence
+validation.ts - Input and data validation
+errors.ts - Error handling
+types.ts - TypeScript definitions
+styles.css - Interface styling
+scripts/build.mjs - Build process
+
