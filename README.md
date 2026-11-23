@@ -14,8 +14,7 @@ I wanted it to be an open-source project because I’m currently studying cybers
 (IDENSIFIED) = ID - DENSE - IDENTIFIED as in density for your identity.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
-</> Markdown
-- Currently Ive got:
+Currently I've got: 
 
 - Argon2id passphrase-based key derivation.
 - AES-256-GCM encryption.
@@ -29,8 +28,7 @@ I wanted it to be an open-source project because I’m currently studying cybers
 - DOM rendering using textContent to reduce injection risks.
 note: I fought with AI to implement the best security possible but there will probably be some mistakes.
 ------------------------------------------------------------------------------------------------------------------------------------------
-</> Markdown
-- Initial Browser extension prototype:-
+Initial browser extension prototype:
 
 - manifest.json - Browser extension configuration
 - popup.html - Extension popup interface
