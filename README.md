@@ -51,7 +51,8 @@ Currently I've got:
 - A five-minute inactivity lock.
 - Revision checks intended to prevent stale sessions overwriting newer vault data.
 - DOM rendering using textContent to reduce injection risks.
-note: I fought with AI to implement the best security possible but there will probably be some mistakes, and ive purposely limited dependencies for better and simpler protections, but also not to fall into the trap of having so many dependencies that updating one could potentially break the whole thing.
+
+- note: I fought with AI to implement the best security possible but there will probably be some mistakes, and ive purposely limited dependencies for better and simpler protections, but also not to fall into the trap of having so many dependencies that updating one could potentially break the whole thing.
 ------------------------------------------------------------------------------------------------------------------------------------------
 Initial browser extension prototype:
 
