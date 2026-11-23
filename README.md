@@ -16,31 +16,31 @@ I wanted it to be an open-source project because I’m currently studying cybers
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 Currently Ive got:
-
-.Argon2id passphrase-based key derivation.
-.AES-256-GCM encryption.
-.A locally encrypted identity vault.
-.Random salt and initialisation vectors.
-.Strict validation of stored data.
-.HTTPS-origin binding for stored identities.
-.IndexedDB storage.
-.A five-minute inactivity lock.
-.Revision checks intended to prevent stale sessions overwriting newer vault data.
-.DOM rendering using textContent to reduce injection risks.
+</> Markdown
+1.Argon2id passphrase-based key derivation.
+2.AES-256-GCM encryption.
+3.A locally encrypted identity vault.
+4.Random salt and initialisation vectors.
+5.Strict validation of stored data.
+6.HTTPS-origin binding for stored identities.
+7.IndexedDB storage.
+8.A five-minute inactivity lock.
+9.Revision checks intended to prevent stale sessions overwriting newer vault data.
+10.DOM rendering using textContent to reduce injection risks.
 note: I fought with AI to implement the best security possible but there will probably be some mistakes.
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Initial Browser extension prototype:-
-
-.manifest.json - Browser extension configuration
-.popup.html - Extension popup interface
-.main.ts - Main application logic
-.crypto.ts - Cryptographic operations
-.vault.ts -  Encrypted vault functionality
-.idb-store.ts - IndexedDB persistence
-.validation.ts - Input and data validation
-.errors.ts - Error handling
-.types.ts - TypeScript definitions
-.styles.css - Interface styling
-.scripts/build.mjs - Build process
+</> Markdown
+1.manifest.json - Browser extension configuration
+2.popup.html - Extension popup interface
+3.main.ts - Main application logic
+4.crypto.ts - Cryptographic operations
+5.vault.ts -  Encrypted vault functionality
+6.idb-store.ts - IndexedDB persistence
+7.validation.ts - Input and data validation
+8.errors.ts - Error handling
+9.types.ts - TypeScript definitions
+10.styles.css - Interface styling
+11.scripts/build.mjs - Build process
 
