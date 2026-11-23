@@ -32,11 +32,11 @@ Because people shouldn't have to understand cybersecurity to make informed decis
 I wanted Idensified to help people strengthen their online identity and run background checks on websites, so the playing field is fairer. Many websites use a range of measures to gather data about everyday users; it seems only fair that users should have a similar level of insight and awareness. This could help people understand the potential risks of using the internet while also giving them tools to protect themselves.
 
 I’ve used AI to help sketch out the first version of this project. It’s a work in progress, not a finished security tool. I’m sharing it to invite feedback and contributions from people with different levels of security and web development experience. The core principle is: it informs; it doesn’t restrict. That makes Idensified’s approach clear and keeps its honest—qualities which I think people will respect.
-I wanted it to be an open-source project because I’m currently studying cybersecurity, and have no idea how to build something of this level.
+I wanted it to be an open-source project because I’m currently studying cybersecurity, and realised i couldn't build something this intrecate on my own or even with AI, because albeit AI being a good tool it is not perfect and couldn't fully grasp the level of security i was trying to implicate for idensified.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-(IDENSIFIED) = ID - DENSE - IDENTIFIED as in density for your identity.
+(IDENSIFIED) = density for your identity.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 Currently I've got: 
@@ -52,7 +52,7 @@ Currently I've got:
 - Revision checks intended to prevent stale sessions overwriting newer vault data.
 - DOM rendering using textContent to reduce injection risks.
 
-- note: I fought with AI to implement the best security possible but there will probably be some mistakes, and ive purposely limited dependencies for better and simpler protections, but also not to fall into the trap of having so many dependencies that updating one could potentially break the whole thing.
+- note: I fought with AI to implement the best security i possibly could, but you will probably see some mistakes. I've purposely limited dependencies for better and simpler protections, but also not to fall into the trap of having so many dependencies that updating one could potentially break other dependencies.
 ------------------------------------------------------------------------------------------------------------------------------------------
 Initial browser extension prototype:
 
