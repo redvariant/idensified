@@ -8,7 +8,7 @@ I wanted Idensified to help people strengthen their online identity and run back
 
 I’ve used AI to help sketch out the first version of this project. It’s a work in progress, not a finished security tool. I’m sharing it to invite feedback and contributions from people with different levels of security and web development experience. The core principle is: it informs; it doesn’t restrict. That makes Idensified’s approach clear and keeps it honest—qualities I think people will respect.
 
-I wanted it to be an open-source project because I’m currently studying cybersecurity. Honestly, the lack of security awareness on many websites is astonishing. I keep thinking about how disadvantaged people can be when they aren’t aware of the potential weaknesses in the websites they use.
+I wanted it to be an open-source project because I’m currently studying cybersecurity, and have no idea how to build something of this level.
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 (IDENSIFIED) = ID - DENSE - IDENTIFIED as in density for your identity.
